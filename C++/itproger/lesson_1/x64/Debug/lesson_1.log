@@ -1,0 +1,3 @@
+﻿E:\vs\vs\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (lesson_1.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  lesson_11.cpp
+  lesson_1.vcxproj -> E:\projects\CPlus\itproger\x64\Debug\lesson_11(function overload).exe

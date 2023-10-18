@@ -1,0 +1,5 @@
+﻿  Ex1.cpp
+E:\projects\CPlus\Course\Ex1\Ex1.cpp(12,17): warning C4101: k: неиспользованная локальная переменная
+E:\projects\CPlus\Course\Ex1\Ex1.cpp(12,9): warning C4101: Jlk: неиспользованная локальная переменная
+E:\projects\CPlus\Course\Ex1\Ex1.cpp(12,13): warning C4101: kj: неиспользованная локальная переменная
+  Ex1.vcxproj -> E:\projects\CPlus\Course\x64\Debug\Ex1.exe
