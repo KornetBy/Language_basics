@@ -1,0 +1,9 @@
+<resources>
+    <!-- Заменяем родительскую тему на AppCompat, не используя Material-тему -->
+    <style name="Theme.Labv2" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Используйте простые цвета напрямую, без Material атрибутов -->
+        <item name="android:background">#6200EE</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:statusBarColor">#3700B3</item>
+    </style>
+</resources>

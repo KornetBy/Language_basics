@@ -1,0 +1,32 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android' // если используете Kotlin
+}
+
+android {
+    namespace "com.example.lab22"
+    compileSdkVersion 33
+
+    defaultConfig {
+        applicationId "com.example.lab22"
+        minSdkVersion 21
+        targetSdkVersion 33
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildFeatures {
+        viewBinding true // если нужно
+    }
+
+    // Не указываем репозитории тут.
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:1.8.0"
+    implementation "androidx.core:core-ktx:1.9.0"
+    implementation "androidx.appcompat:appcompat:1.5.1"
+    implementation "com.google.android.material:material:1.7.0"
+    implementation "androidx.constraintlayout:constraintlayout:2.1.4"
+    // Добавляйте другие зависимости, которые подтянутся из репозиториев, указанных в settings.gradle
+}

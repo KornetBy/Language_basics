@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="switch_orientation">↺</string>
+    <string name="btn_ac">AC</string>
+    <string name="btn_equals">=</string>
+    <string name="btn_sin">SIN</string>
+    <string name="btn_cos">COS</string>
+    <string name="btn_tg">TG</string>
+    <string name="btn_log">LOG</string>
+    <string name="btn_pi">PI</string>
+    <string name="btn_history">HISTORY</string>
+    <string name="history_button_text">История</string>
+</resources>

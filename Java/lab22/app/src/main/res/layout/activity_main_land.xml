@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#EDE7F6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/inputTextView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="end|center_vertical"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:background="#D1C4E9"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="end|center_vertical"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:background="#E1BEE7"
+        android:padding="8dp" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="8"
+            android:rowCount="6"
+            android:padding="4dp">
+
+            <!-- Здесь можно повторить все кнопки как и в портретном режиме -->
+
+            <Button android:id="@+id/btnAC" android:text="Сброс" android:layout_width="60dp" android:layout_height="60dp"/>
+            <Button android:id="@+id/btnBackspace" android:text="←" android:layout_width="60dp" android:layout_height="60dp"/>
+            <Button android:id="@+id/btnMC" android:text="MC" android:layout_width="60dp" android:layout_height="60dp"/>
+            <Button android:id="@+id/btnMR" android:text="MR" android:layout_width="60dp" android:layout_height="60dp"/>
+            <Button android:id="@+id/btnMPlus" android:text="M+" android:layout_width="60dp" android:layout_height="60dp"/>
+            <Button android:id="@+id/btnMMinus" android:text="M-" android:layout_width="60dp" android:layout_height="60dp"/>
+            <Button android:id="@+id/btnHistory" android:text="История" android:layout_width="60dp" android:layout_height="60dp"/>
+            <Button android:id="@+id/btnPercent" android:text="%" android:layout_width="60dp" android:layout_height="60dp"/>
+
+            <Button android:id="@+id/btn7" android:text="7" android:layout_width="60dp" android:layout_height="60dp"/>
+            <Button android:id="@+id/btn8" android:text="8" android:layout_width="60dp" android:layout_height="60dp"/>
+            <Button android:id="@+id/btn9" android:text="9" android:layout_width="60dp" android:layout_height="60dp"/>
+            <Button android:id="@+id/btnDivide" android:text="÷" android:layout_width="60dp" android:layout_height="60dp"/>
+            <Button android:id="@+id/btnMultiply" android:text="×" android:layout_width="60dp" android:layout_height="60dp"/>
+            <Button android:id="@+id/btnMinus" android:text="-" android:layout_width="60dp" android:layout_height="60dp"/>
+            <Button android:id="@+id/btnPlus" android:text="+" android:layout_width="60dp" android:layout_height="60dp"/>
+            <Button android:id="@+id/btnEquals" android:text="=" android:layout_width="60dp" android:layout_height="60dp"/>
+
+            <Button android:id="@+id/btn4" android:text="4" android:layout_width="60dp" android:layout_height="60dp"/>
+            <Button android:id="@+id/btn5" android:text="5" android:layout_width="60dp" android:layout_height="60dp"/>
+            <Button android:id="@+id/btn6" android:text="6" android:layout_width="60dp" android:layout_height="60dp"/>
+            <Button android:id="@+id/btn1" android:text="1" android:layout_width="60dp" android:layout_height="60dp"/>
+            <Button android:id="@+id/btn2" android:text="2" android:layout_width="60dp" android:layout_height="60dp"/>
+            <Button android:id="@+id/btn3" android:text="3" android:layout_width="60dp" android:layout_height="60dp"/>
+            <Button android:id="@+id/btn0" android:text="0" android:layout_width="60dp" android:layout_height="60dp"/>
+            <Button android:id="@+id/btnDot" android:text="." android:layout_width="60dp" android:layout_height="60dp"/>
+
+            <Button android:id="@+id/btnOpenParen" android:text="(" android:layout_width="60dp" android:layout_height="60dp"/>
+            <Button android:id="@+id/btnCloseParen" android:text=")" android:layout_width="60dp" android:layout_height="60dp"/>
+            <Button android:id="@+id/btnPower" android:text="^" android:layout_width="60dp" android:layout_height="60dp"/>
+            <Button android:id="@+id/btnSqrt" android:text="√" android:layout_width="60dp" android:layout_height="60dp"/>
+            <Button android:id="@+id/btnFactorial" android:text="!" android:layout_width="60dp" android:layout_height="60dp"/>
+            <Button android:id="@+id/btnPi" android:text="π" android:layout_width="60dp" android:layout_height="60dp"/>
+
+            <Button android:id="@+id/btnSin" android:text="SIN" android:layout_width="60dp" android:layout_height="60dp"/>
+            <Button android:id="@+id/btnCos" android:text="COS" android:layout_width="60dp" android:layout_height="60dp"/>
+            <Button android:id="@+id/btnTg" android:text="TG" android:layout_width="60dp" android:layout_height="60dp"/>
+            <Button android:id="@+id/btnLn" android:text="LN" android:layout_width="60dp" android:layout_height="60dp"/>
+            <Button android:id="@+id/btnLog" android:text="LOG" android:layout_width="60dp" android:layout_height="60dp"/>
+        </GridLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>

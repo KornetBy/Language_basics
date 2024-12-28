@@ -1,0 +1,8 @@
+<resources>
+    <style name="Theme.Labv2" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Пример простого оформления без Material-атрибутов -->
+        <item name="android:background">#FFFFFF</item>
+        <item name="android:textColorPrimary">#000000</item>
+        <item name="android:statusBarColor">#3700B3</item>
+    </style>
+</resources>

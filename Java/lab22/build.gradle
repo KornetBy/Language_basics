@@ -1,0 +1,21 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+
+dependencyResolutionManagement {
+    // При этом режиме Gradle не разрешает объявлять репозитории в build.gradle
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        // Если нужно, можно добавить другие репозитории, например:
+        // maven { url "https://jitpack.io" }
+    }
+}
+
+rootProject.name = "lab22"
+include(":app")
